@@ -6,8 +6,8 @@
     "license": "MIT",
     "repositories": [
      {
-        "type": "vcs",
-        "url": "https://github.com/kipkiruitoo/voyager.git"
+        "type": "path",
+        "url": "/Projects/voyager"
      }
     ],
     "require": {
@@ -16,7 +16,7 @@
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
-        "tcg/voyager": "^1.5"
+        "tcg/voyager": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
